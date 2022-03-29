@@ -60,3 +60,20 @@ const props = await serializeMdx(parseMdx(file));
 ## deployment issue
 
 Nextjs assumes the content is served by a server, in which case it would work as normal, because `/` would be an absolute reference to the http root.
+
+## Resources
+
+- https://wallis.dev/blog/deploying-a-next-js-app-to-github-pages
+- https://nextjs.org/docs/messages/import-esm-externals
+
+## Prepare for cloudflare
+
+```json
+{
+  "build": "next build",
+  "preexport": "npm run build",
+  "export": "next export",
+  "prestart": "npm run export",
+  "start": "serve out"
+}
+```
