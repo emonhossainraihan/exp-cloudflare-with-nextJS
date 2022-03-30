@@ -6,7 +6,7 @@ export default function SocialIcons() {
   return (
     <div className={styles.socialIcons}>
       <Link
-        link="https://www.youtube.com/3blue1brown"
+        link="https://www.youtube.com/channel/UCCfAWAH1CXDeIHnILzThoQw"
         icon="fab fa-youtube"
         tooltip="Maybe you're not the kind of person who 
         subscribes to YouTube channels, I get that. If you
@@ -15,7 +15,7 @@ export default function SocialIcons() {
         recommendations."
       />
       <Link
-        link="https://twitter.com/3blue1brown"
+        link="https://twitter.com/mathoverflow_"
         icon="fab fa-twitter"
         tooltip="Honestly, we should all probably spend 
         less time on Twitter. But when you are there, 
@@ -31,14 +31,14 @@ export default function SocialIcons() {
         math lessons?"
       /> */}
       <Link
-        link="http://www.facebook.com/3blue1brown"
+        link="https://www.facebook.com/emonhossainraihan/"
         icon="fab fa-facebook"
         tooltip="I'll level with you, this is a very 
         scantily managed Facebook page. It's pretty much 
         just a place to throw up new videos."
       />
       <Link
-        link="https://www.instagram.com/randy_the_pi/"
+        link="https://www.instagram.com/emonhossainraihan/"
         icon="fab fa-instagram"
         tooltip="The adventures of Randy the pi"
       />

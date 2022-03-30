@@ -66,7 +66,7 @@ Nextjs assumes the content is served by a server, in which case it would work as
 - https://wallis.dev/blog/deploying-a-next-js-app-to-github-pages
 - https://nextjs.org/docs/messages/import-esm-externals
 
-## Prepare for cloudflare
+## [Prepare for cloudflare](https://developers.cloudflare.com/pages/framework-guides/deploy-a-nextjs-site/)
 
 ```json
 {
@@ -77,3 +77,9 @@ Nextjs assumes the content is served by a server, in which case it would work as
   "start": "serve out"
 }
 ```
+
+cmd setup:
+
+- Production branch: `main`
+- Build command: `npm run export`
+- Build directory: `out`
