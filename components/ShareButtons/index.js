@@ -19,10 +19,10 @@ export default function ShareButtons({ url, text = "" }) {
     text = description + "\n\n";
   }
 
-  const via = "3Blue1Brown"
-  url = "emonhossainraihan.github.io/testing_blog"
+  const via = "Decompose"
+  // url = "emonhossainraihan.github.io/testing_blog"
   if (!url) {
-    url = "https://www.3blue1brown.com" + router.asPath;
+    url = "https://exp-cloudflare-with-nextjs.pages.dev/" + router.asPath;
   }
 
   const twitterURL = new URL("https://twitter.com/share");

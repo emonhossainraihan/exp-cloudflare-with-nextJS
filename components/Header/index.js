@@ -60,8 +60,8 @@ const Nav = () => {
         tooltip="Various maths topics, in video and text form"
       />
       <NavLink link="/blog" text="Blog" tooltip="Writing about math and more" />
-      <div className={styles.break} />
       <NavLink link="/extras" text="Extras" tooltip="Work elsewhere on the web" />
+      <div className={styles.break} />
     </nav>
   );
 };
